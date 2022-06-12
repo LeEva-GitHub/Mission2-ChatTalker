@@ -46,38 +46,41 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+*,*::before,*::after {
+    box-sizing: border-box;
+}
 .homepage {	
+
 	background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball01.svg),url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/home.svg), url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home.svg);
   	background-repeat: no-repeat;
 	background-size: auto, 532px, auto;
 	background-position: -180px 500px,720px 100px, top right;
 }
-@media (max-width=786px) {
-	.homepage {
-		max-width: 786px;
-		background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball01.svg),url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/home.svg), url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home_sm.svg);
-  		background-repeat: no-repeat;
-		background-size: auto, 532px, auto;
-		background-position: -180px 500px,720px 100px, top right;
-	}
-
-}
 
 .header {
+	max-width: 1088px;
 	display: flex;
+    align-items: center;	
 	justify-content: space-between;
-	margin: 0 auto;
+	height: 80px;
+
 }
 .logo img{
-	width: 218px;
-	height: 40px;
-	padding-left: 142px;
+	max-width: 218px;
+	/*padding-left: 142px;
 	padding-top: 24px;
-	padding-bottom: 24px;
+	padding-bottom: 24px;*/
 }
 .link_to_cost1 {
 	padding-right: 139px;
 	padding-top: 32px;
+	align-items: center;
+	
+
 }
 .link_to_cost1 a{
 	background: #FF5D50;
@@ -211,12 +214,13 @@ table {
 	display: flex;
 	margin: 0 auto;
 	justify-content: space-between;
+
 }
 .function {
 	display: flex;
 	flex-wrap: wrap;
 	width: 507px;
-    justify-content: center;
+    justify-content: space-between;
 	margin-right: 137px;
 	margin-bottom: 100px;
 }
@@ -251,7 +255,9 @@ table {
 	word-break: keep-all;
 }
 .link_to_cost2 {
-	width: 395px;
+	max-width: 395px;
+    flex-direction: column;
+    justify-content: center;
 }
 .link_to_cost2 h2 {
 	color:#221E1F;
@@ -281,9 +287,11 @@ table {
 	border: 1px solid #FF5D50;
 }
 .feedback {
-	width: 1088px;
-    flex-direction: column;
+	max-width: 1088px;
 	margin: 0 auto;
+	display: flex;
+    flex-direction: column;
+	justify-content: space-between;
 	margin-bottom: 100px;
 }
 .feedback h1 {
@@ -294,13 +302,16 @@ table {
 	margin-bottom: 104px;
 }
 .feedback_content {
+	max-width: 1088px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 16px;
 	font-size: 16px;
 	margin-bottom: 24px;
 }
 .feedback_box {
-	width: 352px;
+	max-width: 352px;
 	padding: 48px 32px 24px 32px;
 	box-shadow: 1px 5px 5px #00000014;
 	border-radius: 12px;
@@ -308,10 +319,11 @@ table {
 }
 .feedback_user {
 	position: relative;
-	top: -56px;
-	left: 32px;
+	top: -100px;
+
 }
 .feedback_user img{
+	width: 80px;
 	border-radius: 40px;
 	position: absolute;
 }
@@ -319,7 +331,6 @@ table {
 	max-width: 288px;
 	color: #221E1F;
 	line-height: 1.5;
-	padding-top: 48px;
 	padding-bottom: 24px;
 	border-bottom: 1px solid rgba(180, 176, 176, 0.856);
 }
