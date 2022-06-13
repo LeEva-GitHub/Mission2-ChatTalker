@@ -446,8 +446,10 @@ table {
 		align-items: center;
 	}
 	.function {
-		text-align: center;
-	
+		align-items: center;
+	}
+	.function-detail {
+		margin: 0 20px 24px;
 	}
 	.link_to_cost2 h2{
 		margin: 0 auto;
@@ -456,12 +458,12 @@ table {
 	}
 	.link_to_cost2 p {
 		text-align: center;
-		font-size: 16px;
+		font-size: 15px;
 		padding-bottom: 16px;
 	}
-	.link_to_cost2 a {
+	.link_to_cost2 a {	
 		font-size: 18px;
-		
+			
 	}
 	.feedback {
 		max-width:  768px;
