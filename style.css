@@ -46,13 +46,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-img {
+/*img {
     max-width: 100%;
     vertical-align: bottom;
 }
 *,*::before,*::after {
     box-sizing: border-box;
-}
+}*/
 .homepage {	
 	background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball01.svg),url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/home.svg), url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home.svg);
   	background-repeat: no-repeat;
@@ -215,7 +215,6 @@ img {
 }
 .function-detail {
 	width: 230px;
-	/*display: flex;*/
 	flex-direction: column;
 	box-shadow: 0px 2px 10px #00000014;
 	border-radius: 15px;
@@ -246,8 +245,8 @@ img {
 	word-break: keep-all;
 }
 .link_to_cost2 {
-	max-width: 395px;
-    flex-direction: column;
+	max-width: 396px;
+	flex-direction: column;
     justify-content: center;
 }
 .link_to_cost2 h2 {
@@ -264,6 +263,7 @@ img {
 	font-size: 18px;
 	line-height: 1.5;
 	padding-bottom: 24px;
+	word-break: keep-all;
 }
 .link_to_cost2 a {
 	border: 1px solid #56C4C5;
@@ -436,13 +436,32 @@ img {
 	.media_type {
 		margin-bottom: 24px;
 	}
-
 	.service_for_p {
 		padding: 0 20px 32px;
 		line-height: 1.5;
 	}
 	.content {
 		max-width: 768px;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	.function {
+		text-align: center;
+	
+	}
+	.link_to_cost2 h2{
+		margin: 0 auto;
+		text-align: center;
+		font-size: 28px;
+	}
+	.link_to_cost2 p {
+		text-align: center;
+		font-size: 16px;
+		padding-bottom: 16px;
+	}
+	.link_to_cost2 a {
+		font-size: 18px;
+		
 	}
 	.feedback {
 		max-width:  768px;
@@ -470,8 +489,6 @@ img {
 	.feedback_content {
 		max-width:  375px;
 	}
-
-
 }
 
 
