@@ -451,6 +451,7 @@ table {
 	.function-detail {
 		margin: 0 20px 24px;
 	}
+
 	.link_to_cost2 h2{
 		margin: 0 auto;
 		text-align: center;
@@ -458,12 +459,14 @@ table {
 	}
 	.link_to_cost2 p {
 		text-align: center;
-		font-size: 15px;
+		font-size: 16px;
 		padding-bottom: 16px;
 	}
 	.link_to_cost2 a {	
 		font-size: 18px;
-			
+		display: inline-flexbox;
+		text-align: center;
+
 	}
 	.feedback {
 		max-width:  768px;
