@@ -276,9 +276,7 @@ table {
 .feedback_content {
 	max-width: 1088px;
 	display: flex;
-	/*justify-content: center;*/
-	/*flex-wrap: wrap;*/
-	gap: 16px;
+	justify-content: space-between;
 	font-size: 16px;
 	margin-bottom: 24px;
 }
