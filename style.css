@@ -454,7 +454,7 @@ table {
 	}
 	.footer h2 {
 		font-size: 24px;
-		padding-top: 293px;
+		padding-top: 393px;
 	}
 
 }
@@ -462,24 +462,9 @@ table {
 	.homepage {
 		max-width: 375px;
 	}
-	/*.banner {
-		max-width: 375px;
-	}
-	.header {
-		max-width: 375px;
-	}
-	.social-media {
-		max-width: 375px;
-	}
-	.content {
-		max-width: 375px;
-	}
 	.feedback {
-		max-width:  375px;
+		margin: 0 auto;
 	}
-	.feedback_content {
-		max-width:  375px;
-	}*/
 }
 
 
