@@ -404,9 +404,6 @@ table {
 	.header {
 		border-bottom: 2px solid #FFD153;
 	}
-	/*.social-media {
-		max-width: 768px;
-	}*/
 	.social-media h2 {
 		padding-bottom: 48px;
 	}
@@ -446,6 +443,9 @@ table {
 	.link_to_cost2 a {	
 		font-size: 18px;
 	}
+	.feedback_box {
+		margin: 0 auto;
+	}
 	.feedback_box_none {
 		display: none;
 	}
@@ -458,9 +458,6 @@ table {
 @media(max-width:375px) {
 	.homepage {
 		max-width: 375px;
-	}
-	.feedback {
-		margin: 0 auto;
 	}
 }
 
