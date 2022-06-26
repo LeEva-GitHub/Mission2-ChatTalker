@@ -299,13 +299,27 @@ table {
 	border-radius: 40px;
 	position: absolute;
 }
-.feedback_p {
+.feedback_box p {
+	display: block;
 	max-width: 288px;
 	color: #221E1F;
 	padding-bottom: 24px;
 	border-bottom: 1px solid rgba(180, 176, 176, 0.856);
 }
-.feedback_company {
+.feedback_box_none p {
+	display: block;
+	max-width: 288px;
+	color: #221E1F;
+	padding-bottom: 24px;
+	border-bottom: 1px solid rgba(180, 176, 176, 0.856);
+}
+.feedback_box h3 {
+	font-weight: bold;
+	color: #221E1F;
+	padding-top: 24px;	
+	padding-bottom: 8px;
+}
+.feedback_box_none h3 {
 	font-weight: bold;
 	color: #221E1F;
 	padding-top: 24px;	
@@ -315,7 +329,7 @@ table {
 	display: flex;
 	justify-content: space-between;
 }
-.feedback_title {
+.feedback_title_star h4 {
 	padding-bottom: 24px;
 }
 .feedback_star {
@@ -455,6 +469,3 @@ table {
 		max-width: 375px;
 	}
 }
-
-
-
