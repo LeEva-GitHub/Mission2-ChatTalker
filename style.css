@@ -58,12 +58,12 @@ table {
   	background-repeat: no-repeat;
 	background-size: auto, 35%, auto;
 	background-position: -180px 500px,700px 100px, top right;
-	line-height: 1.5;	
-	padding: 16px 0;
+	line-height: 1.5;
 	margin: 0 auto;
 }
 .header {
-	max-width: 1088px;
+	max-width: 1120px;	
+	padding: 16px 0;
 	margin: 0 auto;
 	padding: 0 20px;
 	display: flex;
@@ -88,7 +88,9 @@ table {
 	border: 1px solid rgb(27, 160, 138);
 }
 .banner {
-	max-width:  1088px;
+	max-width: 1120px;	
+	padding: 16px 0;
+	margin: 0 auto;
 }
 .banner h1 {
 	color: #56C4C5;
@@ -112,7 +114,8 @@ table {
 
 }
 .social-media {
-	max-width: 1088px;
+	max-width: 1120px;	
+	padding: 16px 0;
 	text-align: center;
 	margin: 0 auto;	
 	margin-bottom: 100px;
@@ -149,6 +152,9 @@ table {
 	font-size: 16px;	
 }
 .service_for {
+	max-width: 1120px;	
+	padding: 16px 0;
+	margin: 0 auto;
 	text-align: center;
 	margin-bottom: 100px;
 }
@@ -191,7 +197,8 @@ table {
 	padding: 16px 16px 24px 16px;
 }
 .content {
-	max-width: 1088px;
+	max-width: 1120px;	
+	padding: 16px 0;
 	margin: 0 auto;
 	display: flex;
 	margin-bottom: 72px;
@@ -255,7 +262,8 @@ table {
 	border: 1px solid #FF5D50;
 }
 .feedback {
-	max-width: 1088px;
+	max-width: 1120px;	
+	padding: 16px 0;
 	margin: 0 auto;
 	margin-bottom: 100px;
 }
@@ -353,7 +361,7 @@ table {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	text-align: center;
+	text-align: center;		
 }
 .footer h2 {
 	color:#221E1F;
